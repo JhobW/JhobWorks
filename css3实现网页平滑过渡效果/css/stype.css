@@ -331,3 +331,16 @@ a{
 .st-color [data-icon]:after{
     color: #fa96b5;
 }
+@media screen and (max-width:520px){
+    .st-panel h2{
+        font-size: 42px;
+    }
+    .st-panel p{
+        width: 90%;
+        left: 10%;
+        margin-top: 0;
+    }
+    .st-container > a{
+        font-size: 13px;
+    }
+}
